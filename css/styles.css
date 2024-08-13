@@ -34,11 +34,6 @@ body,
 p {
     color: #6b747b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
-    
-}
-:root {
-    --primary-color: #512BD4;
-    --secondary-color: #D600AA;
 }
 h1 {
     color: #252c38;
