@@ -32,9 +32,11 @@ Colors:
 
 body,
 p {
+
     color: #6b747b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
+
 h1 {
     color: #252c38;
     font-weight: 700;
