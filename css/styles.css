@@ -34,16 +34,20 @@ body,
 p {
     color: #6b747b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    
 }
-
+:root {
+    --primary-color: #512BD4;
+    --secondary-color: #D600AA;
+}
 h1 {
     color: #252c38;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 3.125rem;
+    line-height: 3.75rem;
     letter-spacing: -0.5px;
-    background: -webkit-linear-gradient(150deg, #512BD4, #D600AA);
+    background: -webkit-linear-gradient(150deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -52,10 +56,11 @@ h1 {
 h2 {
     color: #252c38;
     font-weight: 600;
-    font-size: 2.125rem;
-    line-height: 2.625rem;
+    font-size: 2.75rem;
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3.125rem;
     letter-spacing: -0.4px;
-    background: -webkit-linear-gradient(150deg, #512BD4, #D600AA);
+    background: -webkit-linear-gradient(150deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -63,23 +68,26 @@ h2 {
 
 h3 {
     color: #252c38;
-    font-weight: 500;
-    font-size: 1.75rem;
-    line-height: 2.25rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.75rem;
     letter-spacing: -0.3px;
-    background: -webkit-linear-gradient(150deg, #512BD4, #D600AA);
+    background: -webkit-linear-gradient(150deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-transform: uppercase;
 }
 
 h4 {
     color: #252c38;
     font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.9rem;
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
     letter-spacing: -0.2px;
-    background: -webkit-linear-gradient(150deg, #512BD4, #D600AA);
+    background: -webkit-linear-gradient(150deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -89,18 +97,21 @@ h5 {
     color: #252c38;
     font-weight: 300;
     font-size: 1.25rem;
-    line-height: 1.625rem;
-    background: -webkit-linear-gradient(150deg, #512BD4, #D600AA);
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    background: -webkit-linear-gradient(150deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 h6 {
-    color: #252c38;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 1.375rem;
+    color: var(--Third-color);
+    font-weight: 600;
+    font-size: 1.9rem;
+    font-family: 'Space Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
+    letter-spacing: -0.2px;
 }
 
 .h1-large {
@@ -151,9 +162,9 @@ h6 {
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-    border: 1px solid #594cda;
+    border: 1px solid var(--primary-color);
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: var(--primary-color);
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -184,8 +195,8 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-    border: 1px solid #eb427e;
-    background-color: #eb427e;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .btn-solid-lg.secondary:hover {
@@ -494,7 +505,7 @@ input[type="checkbox"] {
     display: block;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    color: #6b747b;
+    color: var(--primary-color);
     text-decoration: none;
     line-height: 0.875rem;
     transition: all 0.2s ease;
@@ -522,7 +533,7 @@ input[type="checkbox"] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-    color: #ff6e84;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
