@@ -1,23 +1,52 @@
 .bg-primary {
-    background-color: #512BD4;
+    background-color: var(--primary-color);
 }
 
 .bg-secondary {
-    background-color: #D600AA;
+    background-color: var(--secondary-color);
 }
 
+.bg-third {
+    background-color: var(--third-color);
+}
+
+
 .text-primary {
-    color : #512BD4;
+    color : var(--primary-color);
 }
 
 .text-secondary {
-    color: #D600AA;
+    color: var(--secondary-color);
+    
+}
+.text-third {
+    color: var(--third-color);
+}
+.border-third {
+    border-color: var(--third-color);
 }
 
 :root {
     --primary-color: #512BD4;
     --secondary-color: #D600AA;
-    --Third-color: #5C2D91;
+    --third-color: #5C2D91;
+}
+
+.bg-gradient-radial {
+    background: radial-gradient(at 0% 0%, white, #e5d8f3, white);
+}
+
+.vert{
+    display: flex;
+   align-items: center;
+}
+
+.blur{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--primary-color);
 }
 
 /* .scale-125 {
