@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- SEO Meta Tags -->
-    <meta name="description"
-        content="Come and see my skills" />
+    <meta name="description" content="Come and see my skills" />
     <meta name="author" content="Eloy Cruz" />
 
     <!-- Webpage Title -->
@@ -63,6 +62,9 @@
                         <a class="nav-link page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
+                        <a class="nav-link page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
                         <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
@@ -115,7 +117,7 @@
     <!-- end of introduction -->
 
 
-    <!-- Features -->
+    <!-- Skills -->
     <div id="skills" class="cards-1">
         <div class="container px-4 sm:px-8 xl:px-4">
             <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Skills</h2>
@@ -195,14 +197,42 @@
 
         </div> <!-- end of container -->
     </div> <!-- end of cards-1 -->
-    <!-- end of features -->
+    <!-- end of skills -->
+
+    <!-- Resume -->
+    <div id="resume" class="pb-24">
+        <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Resume</h2>
+        <div class="container px-4 sm:px-8 xl:px-4 md:grid md:grid-cols-2 md:gap-12">
+            <div class="container p-4 my-4 bg-gradient-radial rounded-lg shadow-lg border-2 border-third">
+                <img class="mx-auto" src="images/Application/UCI-Icon.png" width="94" alt="UCI">
+                <h4 class="my-4">Universidad de Ciencias Informáticas</h4>
+                <p class=""><span class="font-bold">2016-2021- </span>
+                    Graduate in computer engineering. Participation in: </p>
+                    <ul class="mx-8 list-disc">
+                        <li >ACM-ICPC</li>
+                        <li>Global Game Jam</li>
+                        <li>scientific conferences</li>
+                        <li>DevCa</li>
+                        <li>sports games</li>
+                    </ul>
+            </div>
+            <div class="container p-4 my-2 bg-gradient-radial rounded-lg shadow-lg border-2 border-third">
+                <img class="mx-auto" src="images/Application/BCC-Icon.png" width="150" alt="UCI">
+                <h4 class="my-4">Banco Central de Cuba</h4>
+                <p class=""><span class="font-bold">2022-2024- </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dolores voluptatibus
+                    placeat voluptatum repellendus recusandae, alias sunt fuga reprehenderit, nemo blanditiis minus,
+                    pariatur eos aspernatur velit non ex inventore ipsum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of Resume -->
 
 
     <!-- Portfolio -->
     <div id="portfolio">
         <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Portfolio</h2>
         <!-- Portfolio 1 -->
-        <div id="details" class="pt-12 pb-16 lg:pt-16">
+        <div id="portfolio1" class="pt-12 pb-16 lg:pt-16">
             <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
                 <div class="lg:col-span-5">
                     <div class="mb-16 lg:mb-0 lg:mt-4">
@@ -242,12 +272,13 @@
 
 
         <!-- Portfolio 2 -->
-        <div id="details" class="pt-12 pb-16 lg:pt-16">
+        <div id="portfolio2" class="pt-12 pb-16 lg:pt-16">
             <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
                 <div class="lg:col-span-5 lg:order-2">
                     <div class="mb-16 lg:mb-0 lg:mt-4">
                         <h4 class="mb-6">Agenda</h4>
-                        <p class="mb-4">Web page under development whose objective is to record work schedules and generate statistics for subsequent analysis</p>
+                        <p class="mb-4">Web page under development in MVC C# whose objective is to record work schedules and
+                            generate statistics for subsequent analysis</p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="lg:col-span-7 flex items-center lg:order-1">
@@ -276,67 +307,12 @@
             </div> <!-- end of container -->
         </div>
         <!-- end of Portfolio 2 -->
-
-
-        <!-- Details Lightbox -->
-        <!-- Lightbox -->
-        <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
-                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-                <div class="lg:col-span-8">
-                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
-                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-4">
-                    <h3 class="mb-2">Goals Setting</h3>
-                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
-                    <p>The app can easily help you track your personal development evolution if you take the time to set
-                        it
-                        up.</p>
-                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
-                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it
-                        will
-                        help improve your productivity.</p>
-                    <ul class="list mb-6 space-y-2">
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Splash screen panel</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Statistics graph report</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Events calendar layout</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Location details screen</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Onboarding steps interface</div>
-                        </li>
-                    </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
-                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of lightbox-basic -->
-        <!-- end of lightbox -->
-        <!-- end of details lightbox -->
     </div>
     <!-- End of Portfolio -->
 
-    </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
-
-
     <!-- Contact -->
     <div id="contact" class="relative isolate pb-8 px-2">
+        <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Contact</h2>
         <div class="blur">
             <div
                 class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2 bg-gradient-radial rounded-lg shadow-lg border border-third">

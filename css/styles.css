@@ -502,7 +502,7 @@ input[type="checkbox"] {
     display: block;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    color: var(--primary-color);
+    color: var(--third-color);
     text-decoration: none;
     line-height: 0.875rem;
     transition: all 0.2s ease;
