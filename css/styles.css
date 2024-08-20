@@ -909,7 +909,6 @@ input[type="checkbox"] {
 
 .social .fa-stack {
     width: 2em;
-    margin-bottom: 1.25rem;
     margin-right: 0.375rem;
     font-size: 1.5rem;
 }
@@ -975,9 +974,7 @@ input[type="checkbox"] {
 /*     Copyright     */
 /*********************/
 .copyright {
-    padding-top: 1.5rem;
     background-color: #c5eaf9;
-    text-align: center;
 }
 
 /******************************/
@@ -1191,10 +1188,6 @@ a:hover.back-to-top {
     .copyright .list-unstyled li {
         display: inline-block;
         margin-right: 1rem;
-    }
-
-    .copyright .statement {
-        text-align: right;
     }
     /* end of copyright */
 
